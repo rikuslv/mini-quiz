@@ -41,8 +41,9 @@ int main(){
     }
 
     //third question
-    cout << "When you first spawn in the game what dimension do you start in?";
+    cout << "When you first spawn in the game what dimension do you start in?\n";
     cout << "a) overworld\n b) spawnpointn c) tiemlend\n";
+    cin >> answer;
 
     if(answer == "a" || answer == "A"){
         score++;
